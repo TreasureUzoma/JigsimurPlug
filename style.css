@@ -1,0 +1,226 @@
+body {
+  font-family: Poppins;
+  background: #DBFBF5;
+}
+h1, h2, h3, h4 {
+  font-family: nunito;
+}
+{
+  line-height: 1.65;
+  word-spacing: 2;
+}
+nav {
+  background: #FEFFAE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 21px;
+  z-index: 1000;
+}
+nav a {
+  color:black;
+}
+.logo {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1;
+}
+header {
+  text-align: center;
+  padding: 12em 25px;
+  background-color: #02E9BF;
+  heght: 10rem;
+  margin: -8px;
+  
+  /*padding-top: 75px;*/
+}
+.page-btn {
+  padding: 16px;
+  border-radius: 20px;
+  width:150px;
+  font-family: Poppins;
+  background-color: #eee;
+  border: none;
+  margin: 5px 1px;
+
+}
+.a-btn {
+  color: white;
+  background: black;
+}
+nav a {
+  text-decoration: none;
+}
+#nav_btn {
+  background-color: transparent;
+  border: none;
+  fill: black;
+  margin-top: -3px;
+  font-size: 20px;
+  float: right;
+}
+.infos {
+  margin: 17px 12px;
+}
+
+.info1 h2 {
+  text-align: center;
+}
+.products {
+  text-align: center;
+  margin: 70px 35px;
+}
+ 
+.category-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 25px;
+ }
+ .grid-2{
+  text-align:left;
+  grid-template-columns: repeat(1, 1fr);
+ 
+ }
+ .grid-3{
+  text-align:left;
+  overflow: scroll;
+  grid-template-columns: repeat(1, 1fr);
+ }
+ . h3, .grid-3 p {
+   ligne-height: 1;
+ }
+     
+ .product {
+     /*display: flex;
+     flex-direction: column;
+     align-items:center;
+     text-align: left;*/
+     background-color: white;
+     border-radius: 0px;
+     text-decoration: none;
+     padding:15px 13px;
+ }
+   .product img {
+      display: flex;
+      margin: 0 auto;
+    }
+ .product button {
+   padding: 14px 10px;
+   width: 111px;
+   border-radius: 20px;
+   margin: 2px 5px;
+   border: none;
+ }
+i {
+  padding: 0 1px;
+}
+del {
+  opacity: 0.6;
+}
+.sec-2 {
+  background-color: #242424;
+  color: white;
+  padding: 70px 20px;
+  width: 93%;
+  margin: 0 -8px;
+  text-align: center;
+}
+footer {
+  background-color: #111111;
+  position: absolute;
+  color: white;
+  left:0;
+  right:0;
+  padding: 50px 35px;
+}
+footer h5 {
+  text-align: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer i {
+  font-size: 1em;
+  padding: 4px 6px;
+  background: green;
+  margin-left: 6px;
+}
+  @media (min-width: 700px) {
+    nav {
+        
+      }
+    nav .l2 {
+      display: inline;
+      float: right;
+    }
+    #nav_btn {
+      display: none;
+    }
+    p, caption {
+      font-size: 0.7em;
+    }
+  .sec-2{
+     width: 97.9%;
+  }
+ .grid-2{
+  text-align:left;
+  grid-template-columns: repeat(2, 1fr);
+ }
+ .grid-3{
+  text-align:left;
+  grid-template-columns: repeat(3, 1fr);
+ }
+}
+@media (max-width: 600px) {
+    nav .l2 {
+        display: none;
+      }
+}
+.info1 {
+  margin: 17px 0;
+  background-color: white;
+  padding: 29px 23px;
+  border-radius: 0px;
+  line-height: 1.8;
+  border: none;
+}
+.anim {
+  animation: flash 5.5s infinite;
+}
+@keyframes flash {
+  0% {
+    color: #E83F28;
+  }
+  
+  100% {
+    color: #E83F28;
+  }
+}
+.requestform input, .requestform textarea {
+  width: 80%;
+  padding: 10px 9px;
+  border: 2px solid black;
+  text-align: left;
+  outline:none;
+  border-radius: 20px;
+  font-family: Arial, nunito;
+}
+textarea {
+  height: 40vh;
+}
+.hireUsForm input, textarea{
+  padding: 7px 15px;
+  width: 80%;
+  margin: 7px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  font-family: nunito;
+  font-size: 17px;
+  outline: none;
+}
+.hireUsForm textarea {
+  height: 55px;
+}
